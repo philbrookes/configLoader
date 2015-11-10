@@ -15,6 +15,7 @@ Basic usage, for a JSON file `file.json` with the contents:
 ```
 Parse this like so:
 ```
+var configLoader = NewConfigLoader()
 config, err := configLoader.GetConfigFor(file)
 ```
 
