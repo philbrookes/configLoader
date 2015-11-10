@@ -1,7 +1,7 @@
 # go-lang config loader
 Parse generic JSON into go-lang data-structures
 
-Basic usage, for a JSON file `file.json` with the contents:
+Basic usage, for a JSON file `/path/to/file.json` with the contents:
 ```
 {
   "contents": "users",
@@ -16,7 +16,7 @@ Basic usage, for a JSON file `file.json` with the contents:
 Parse this like so:
 ```
 var configLoader = NewConfigLoader()
-config, err := configLoader.GetConfigFor(file)
+config, err := configLoader.GetConfigFor("/path/to/file.json")
 ```
 
 Then pull out values like so:
