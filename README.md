@@ -1,4 +1,4 @@
-# configLoader
+# go-lang config loader
 Parse generic JSON into go-lang data-structures
 
 Basic usage, for a JSON file `file.json` with the contents:
